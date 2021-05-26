@@ -44,42 +44,6 @@
             <artifactId>json-schema-validator</artifactId>
             <version>${rest-assured-version}</version>
         </dependency>
-
-
-        <!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.jayway.restassured/rest-assured &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.jayway.restassured</groupId>-->
-<!--            <artifactId>rest-assured</artifactId>-->
-<!--            <version>2.9.0</version>-->
-<!--        </dependency>-->
-
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.jayway.restassured/json-path &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.jayway.restassured</groupId>-->
-<!--            <artifactId>json-path</artifactId>-->
-<!--            <version>2.9.0</version>-->
-<!--        </dependency>-->
-
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.jayway.restassured/json-schema-validator &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.jayway.restassured</groupId>-->
-<!--            <artifactId>json-schema-validator</artifactId>-->
-<!--            <version>2.9.0</version>-->
-<!--        </dependency>-->
-
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.jayway.restassured/rest-assured-common &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.jayway.restassured</groupId>-->
-<!--            <artifactId>rest-assured-common</artifactId>-->
-<!--            <version>2.9.0</version>-->
-<!--        </dependency>-->
-
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.googlecode.json-simple</groupId>-->
-<!--            <artifactId>json-simple</artifactId>-->
-<!--            <version>1.1.1</version>-->
-<!--        </dependency>-->
     </dependencies>
 
     <build>
@@ -94,5 +58,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
