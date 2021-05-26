@@ -14,7 +14,7 @@ public class BaseTest {
     TestUtil testUtil = new TestUtil();
 
     @BeforeClass
-    public void setup (){
+    public void setup() {
         //Test Setup
         utils.RestAssuredUtil.setBaseURI(); //Setup Base URI
         utils.RestAssuredUtil.setBasePath("api"); //Setup Base Path
@@ -22,10 +22,9 @@ public class BaseTest {
     }
 
     @AfterClass
-    public void afterTest (){
+    public void afterTest() {
         //Reset Values
         utils.RestAssuredUtil.resetBaseURI();
         utils.RestAssuredUtil.resetBasePath();
     }
-
 }
