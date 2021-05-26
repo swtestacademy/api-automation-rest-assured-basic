@@ -1,9 +1,9 @@
-import Utils.TestUtil;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import util.TestUtil;
 
 public class BaseTest {
 
