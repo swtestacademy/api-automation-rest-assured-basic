@@ -22,7 +22,7 @@ public class BaseTest {
     }
 
     @AfterClass
-    public void afterTest() {
+    public void afterTest(g) {
         //Reset Values
         utils.RestAssuredUtil.resetBaseURI();
         utils.RestAssuredUtil.resetBasePath();
